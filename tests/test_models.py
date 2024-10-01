@@ -16,7 +16,6 @@ def test_daily_mean(test, expected):
     npt.assert_array_equal(daily_mean(np.array(test)), np.array(expected))
 
 
-
 @pytest.mark.parametrize(
     "test, expected",
     [
